@@ -1,8 +1,9 @@
 
-function calculadoraSuma(op1, op2, op3, op4, op5) {
+// se ha añadido un parámetro a la funcion Suma
+function calculadoraSuma(op1, op2, op3, op4) {
     let sum;
 
-    sum = op1 + op2 + op3 + op4 + op5;
+    sum = op1 + op2 + op3 + op4 ;
     console.log(sum);
 
     return sum;
